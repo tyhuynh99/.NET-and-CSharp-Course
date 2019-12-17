@@ -1,0 +1,823 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B49786F6-E0C1-4D5F-B014-AEE1DB72481A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bakery</RootNamespace>
+    <AssemblyName>Bakery</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44356</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>3.6</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="admin_dashboard.aspx" />
+    <Content Include="cart.aspx" />
+    <Content Include="checkout-resource\css\custom.css" />
+    <Content Include="checkout-resource\css\style.blue.css" />
+    <Content Include="checkout-resource\css\style.default.css" />
+    <Content Include="checkout-resource\css\style.green.css" />
+    <Content Include="checkout-resource\css\style.pink.css" />
+    <Content Include="checkout-resource\css\style.red.css" />
+    <Content Include="checkout-resource\css\style.sea.css" />
+    <Content Include="checkout-resource\css\style.violet.css" />
+    <Content Include="checkout-resource\js\front.js" />
+    <Content Include="checkout-resource\js\map.js" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="checkout-resource\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="checkout-resource\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="checkout-resource\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="checkout-resource\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="checkout-resource\vendor\font-awesome\css\font-awesome.css" />
+    <Content Include="checkout-resource\vendor\font-awesome\css\font-awesome.min.css" />
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="checkout-resource\vendor\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="checkout-resource\vendor\jquery.cookie\jquery.cookie.js" />
+    <Content Include="checkout-resource\vendor\jquery.cookie\MIT-LICENSE.txt" />
+    <Content Include="checkout-resource\vendor\jquery\core.js" />
+    <Content Include="checkout-resource\vendor\jquery\jquery.js" />
+    <Content Include="checkout-resource\vendor\jquery\jquery.min.js" />
+    <Content Include="checkout-resource\vendor\jquery\jquery.slim.js" />
+    <Content Include="checkout-resource\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="checkout-resource\vendor\owl.carousel2.thumbs\owl.carousel2.thumbs.js" />
+    <Content Include="checkout-resource\vendor\owl.carousel2.thumbs\owl.carousel2.thumbs.min.js" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\ajax-loader.gif" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.carousel.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.carousel.min.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.theme.default.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.theme.default.min.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.theme.green.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.theme.green.min.css" />
+    <Content Include="checkout-resource\vendor\owl.carousel\assets\owl.video.play.png" />
+    <Content Include="checkout-resource\vendor\owl.carousel\owl.carousel.js" />
+    <Content Include="checkout-resource\vendor\owl.carousel\owl.carousel.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\esm\popper-utils.js" />
+    <Content Include="checkout-resource\vendor\popper.js\esm\popper-utils.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\esm\popper.js" />
+    <Content Include="checkout-resource\vendor\popper.js\esm\popper.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\popper-utils.js" />
+    <Content Include="checkout-resource\vendor\popper.js\popper-utils.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\popper.js" />
+    <Content Include="checkout-resource\vendor\popper.js\popper.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\umd\popper-utils.js" />
+    <Content Include="checkout-resource\vendor\popper.js\umd\popper-utils.min.js" />
+    <Content Include="checkout-resource\vendor\popper.js\umd\popper.js" />
+    <Content Include="checkout-resource\vendor\popper.js\umd\popper.min.js" />
+    <Content Include="contact.aspx" />
+    <Content Include="css\login-style.css" />
+    <Content Include="dashboard-resource\assets\css\demo_1\style.css" />
+    <Content Include="dashboard-resource\assets\css\shared\style.css" />
+    <Content Include="dashboard-resource\assets\images\auth\login_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\auth\login_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\auth\register.jpg" />
+    <Content Include="dashboard-resource\assets\images\auth\register_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_10.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_11.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_12.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_3.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_4.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_5.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_6.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_7.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_8.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\banner_9.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\dashboard_slides.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\lock_bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\login_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\login_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\register.jpg" />
+    <Content Include="dashboard-resource\assets\images\carousel\register_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\profile_image.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image1.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image2.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image3.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image4.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image5.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image6.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image7.jpg" />
+    <Content Include="dashboard-resource\assets\images\chat\thumb_image8.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\banner_bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\banner_img.png" />
+    <Content Include="dashboard-resource\assets\images\dashboard\img_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\img_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\img_3.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\profile-card.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\progress-card-bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\dashboard\weather-card.jpg" />
+    <Content Include="dashboard-resource\assets\images\email\fb.png" />
+    <Content Include="dashboard-resource\assets\images\email\mail-image.jpg" />
+    <Content Include="dashboard-resource\assets\images\email\medium.png" />
+    <Content Include="dashboard-resource\assets\images\email\slack.png" />
+    <Content Include="dashboard-resource\assets\images\email\twitter.png" />
+    <Content Include="dashboard-resource\assets\images\email\youtube.png" />
+    <Content Include="img\faces-clipart\pic-1.png" />
+    <Content Include="img\faces-clipart\pic-2.png" />
+    <Content Include="img\faces-clipart\pic-3.png" />
+    <Content Include="img\faces-clipart\pic-4.png" />
+    <Content Include="dashboard-resource\assets\images\favicon.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\001-interface-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\002-tool.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\003-interface.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\004-folder-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\005-database.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\006-record.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\007-folder.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\128\008-archive.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\001-interface-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\002-tool.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\003-interface.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\004-folder-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\005-database.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\006-record.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\007-folder.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\256\008-archive.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\001-interface-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\002-tool.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\003-interface.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\004-folder-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\005-database.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\006-record.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\007-folder.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\512\008-archive.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\001-interface-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\002-tool.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\003-interface.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\004-folder-1.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\005-database.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\006-record.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\007-folder.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\64\008-archive.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\chrome.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\corrupted-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\css.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\database.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\doc-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\document.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\download-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\folder-open.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\folder.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\git-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\html.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\js-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\pdf.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\server-2.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\server.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\zip-file.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\extension\zip.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\firefox.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\icon-3.svg" />
+    <Content Include="dashboard-resource\assets\images\file-icons\icon-google.svg" />
+    <Content Include="dashboard-resource\assets\images\file-icons\Internet-Explorer.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\opera.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\Safari.png" />
+    <Content Include="dashboard-resource\assets\images\file-icons\vivaldi.png" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\1.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\1_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\2.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\2_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\3.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\3_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\4.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\4_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\5.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\5_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\6.jpg" />
+    <Content Include="dashboard-resource\assets\images\lazy-load\6_small.jpg" />
+    <Content Include="dashboard-resource\assets\images\lightbox\play-button.png" />
+    <Content Include="dashboard-resource\assets\images\lightbox\thumb-v-v-1.jpg" />
+    <Content Include="dashboard-resource\assets\images\lightbox\thumb-v-v-2.jpg" />
+    <Content Include="dashboard-resource\assets\images\lightbox\thumb-v-y-1.jpg" />
+    <Content Include="dashboard-resource\assets\images\lightbox\thumb-v-y-2.jpg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini-4.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_10.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_11.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_3.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_5.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_6.svg" />
+    <Content Include="dashboard-resource\assets\images\logo-mini_7.svg" />
+    <Content Include="dashboard-resource\assets\images\logo.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_10.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_11.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_2.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_3.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_5.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_6.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_7.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_8.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_9.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_blue.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_dark.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_dark_mini.svg" />
+    <Content Include="dashboard-resource\assets\images\logo_star_white.svg" />
+    <Content Include="dashboard-resource\assets\images\product_images\apple-watch.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images\apple-watch_2.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images\baf.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\ball.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\beats-headphone.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images\headphone.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\Homepod.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\homepod_small.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\imac.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\iphone-x.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images\iphone.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\macbook-pro.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\magic-mouse.png" />
+    <Content Include="dashboard-resource\assets\images\product_images\shoe.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\shoe_2.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\shoe_3.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images\watch.jpeg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image1.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image10.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image11.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image12.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image2.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image3.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image4.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image5.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image6.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image7.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image8.jpg" />
+    <Content Include="dashboard-resource\assets\images\product_images_2\thumb_image9.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\1.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\10.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\11.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\12.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\13.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\14.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\15.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\2.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\3.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\4.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\5.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\6.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\7.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\8.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\1280x768\9.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\1.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\10.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\11.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\12.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\13.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\14.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\15.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\2.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\3.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\4.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\5.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\6.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\7.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\8.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\300x300\9.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\angular-4.png" />
+    <Content Include="dashboard-resource\assets\images\samples\bg_1.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\bootstrap-stack.png" />
+    <Content Include="dashboard-resource\assets\images\samples\charts.png" />
+    <Content Include="dashboard-resource\assets\images\samples\dashboard.png" />
+    <Content Include="dashboard-resource\assets\images\samples\e-commerce.png" />
+    <Content Include="dashboard-resource\assets\images\samples\editors.png" />
+    <Content Include="dashboard-resource\assets\images\samples\email.png" />
+    <Content Include="dashboard-resource\assets\images\samples\footer_bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\forms.png" />
+    <Content Include="dashboard-resource\assets\images\samples\html5.png" />
+    <Content Include="dashboard-resource\assets\images\samples\invoice_banner.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\lockscreen-bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\Login_bg.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\Login_bg2.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\Mac.png" />
+    <Content Include="dashboard-resource\assets\images\samples\modal.png" />
+    <Content Include="dashboard-resource\assets\images\samples\popup.png" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\banner_01.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\banner_02.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\logo\01.png" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\logo\02.png" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\logo\03.png" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\profile_header_banner.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\01.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\02.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\03.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\04.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\05.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\06.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\07.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\08.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\09.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\10.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\11.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\profile_page\thumbnail\12.jpg" />
+    <Content Include="dashboard-resource\assets\images\samples\tab_preview\01.png" />
+    <Content Include="dashboard-resource\assets\images\samples\tab_preview\02.png" />
+    <Content Include="dashboard-resource\assets\images\samples\tab_preview\03.png" />
+    <Content Include="dashboard-resource\assets\images\samples\tab_preview\04.png" />
+    <Content Include="dashboard-resource\assets\images\samples\tab_preview\05.png" />
+    <Content Include="dashboard-resource\assets\images\samples\weather.svg" />
+    <Content Include="dashboard-resource\assets\images\samples\widgets.png" />
+    <Content Include="dashboard-resource\assets\images\screenshots\analytics-dasboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\classic-dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\crm-dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\dark-dashboard.png" />
+    <Content Include="dashboard-resource\assets\images\screenshots\default-dark.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\default-two.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\default.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\e-commerce_dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\finance-dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\horizontal-screens.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\Marketing-dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\screenshots\modern-dashboard.jpg" />
+    <Content Include="dashboard-resource\assets\images\social_icons\facebook.svg" />
+    <Content Include="dashboard-resource\assets\images\social_icons\google_plus.svg" />
+    <Content Include="dashboard-resource\assets\images\social_icons\instagram.svg" />
+    <Content Include="dashboard-resource\assets\images\social_icons\twitter.svg" />
+    <Content Include="dashboard-resource\assets\images\social_icons\youtube.svg" />
+    <Content Include="dashboard-resource\assets\images\sprites\blue.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\dark.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\flag.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\green.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\jsgrid-icons.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\logo-mini.svg" />
+    <Content Include="dashboard-resource\assets\images\sprites\red.png" />
+    <Content Include="dashboard-resource\assets\images\sprites\yellow.png" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image1.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image2.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image3.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image4.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image5.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image6.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image7.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image8.jpg" />
+    <Content Include="dashboard-resource\assets\images\thumb_images\thumb_image9.jpg" />
+    <Content Include="dashboard-resource\assets\images\weather_icons\sun.svg" />
+    <Content Include="dashboard-resource\assets\images\weather_icons\sunset.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="img\face\face1.jpg" />
+    <Content Include="img\face\face10.jpg" />
+    <Content Include="img\face\face11.jpg" />
+    <Content Include="img\face\face12.jpg" />
+    <Content Include="img\face\face13.jpg" />
+    <Content Include="img\face\face14.jpg" />
+    <Content Include="img\face\face15.jpg" />
+    <Content Include="img\face\face16.jpg" />
+    <Content Include="img\face\face17.jpg" />
+    <Content Include="img\face\face18.jpg" />
+    <Content Include="img\face\face19.jpg" />
+    <Content Include="img\face\face2.jpg" />
+    <Content Include="img\face\face20.jpg" />
+    <Content Include="img\face\face21.jpg" />
+    <Content Include="img\face\face22.jpg" />
+    <Content Include="img\face\face23.jpg" />
+    <Content Include="img\face\face24.jpg" />
+    <Content Include="img\face\face25.jpg" />
+    <Content Include="img\face\face26.jpg" />
+    <Content Include="img\face\face27.jpg" />
+    <Content Include="img\face\face3.jpg" />
+    <Content Include="img\face\face4.jpg" />
+    <Content Include="img\face\face5.jpg" />
+    <Content Include="img\face\face6.jpg" />
+    <Content Include="img\face\face7.jpg" />
+    <Content Include="img\face\face8.jpg" />
+    <Content Include="img\face\face9.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap\bootstrap-grid.css" />
+    <Content Include="css\bootstrap\bootstrap-reboot.css" />
+    <Content Include="css\bootstrap\bootstrap.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\linearicons.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\nice-select.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\Linearicons-Free.svg" />
+    <Content Include="img\about-img.png" />
+    <Content Include="img\b1.jpg" />
+    <Content Include="img\b2.jpg" />
+    <Content Include="img\b3.jpg" />
+    <Content Include="img\b4.jpg" />
+    <Content Include="img\banner-bg.jpg" />
+    <Content Include="img\blog\ads-banner.jpg" />
+    <Content Include="img\blog\blog-home-banner.jpg" />
+    <Content Include="img\blog\c1.jpg" />
+    <Content Include="img\blog\c2.jpg" />
+    <Content Include="img\blog\c3.jpg" />
+    <Content Include="img\blog\c4.jpg" />
+    <Content Include="img\blog\c5.jpg" />
+    <Content Include="img\blog\c6.jpg" />
+    <Content Include="img\blog\cat-widget1.jpg" />
+    <Content Include="img\blog\cat-widget2.jpg" />
+    <Content Include="img\blog\cat-widget3.jpg" />
+    <Content Include="img\blog\feature-img1.jpg" />
+    <Content Include="img\blog\feature-img2.jpg" />
+    <Content Include="img\blog\feature-img3.jpg" />
+    <Content Include="img\blog\feature-img4.jpg" />
+    <Content Include="img\blog\feature-img5.jpg" />
+    <Content Include="img\blog\next.jpg" />
+    <Content Include="img\blog\post-img1.jpg" />
+    <Content Include="img\blog\post-img2.jpg" />
+    <Content Include="img\blog\pp1.jpg" />
+    <Content Include="img\blog\pp2.jpg" />
+    <Content Include="img\blog\pp3.jpg" />
+    <Content Include="img\blog\pp4.jpg" />
+    <Content Include="img\blog\prev.jpg" />
+    <Content Include="img\blog\s-img.jpg" />
+    <Content Include="img\blog\user-info.png" />
+    <Content Include="img\c1.jpg" />
+    <Content Include="img\c2.jpg" />
+    <Content Include="img\c3.jpg" />
+    <Content Include="img\c4.jpg" />
+    <Content Include="img\call-action-bg.jpg" />
+    <Content Include="img\elements\a.jpg" />
+    <Content Include="img\elements\a2.jpg" />
+    <Content Include="img\elements\d.jpg" />
+    <Content Include="img\elements\disabled-check.png" />
+    <Content Include="img\elements\disabled-radio.png" />
+    <Content Include="img\elements\f1.jpg" />
+    <Content Include="img\elements\f2.jpg" />
+    <Content Include="img\elements\f3.jpg" />
+    <Content Include="img\elements\f4.jpg" />
+    <Content Include="img\elements\f5.jpg" />
+    <Content Include="img\elements\f6.jpg" />
+    <Content Include="img\elements\f7.jpg" />
+    <Content Include="img\elements\f8.jpg" />
+    <Content Include="img\elements\g1.jpg" />
+    <Content Include="img\elements\g2.jpg" />
+    <Content Include="img\elements\g3.jpg" />
+    <Content Include="img\elements\g4.jpg" />
+    <Content Include="img\elements\g5.jpg" />
+    <Content Include="img\elements\g6.jpg" />
+    <Content Include="img\elements\g7.jpg" />
+    <Content Include="img\elements\g8.jpg" />
+    <Content Include="img\elements\primary-check.png" />
+    <Content Include="img\elements\primary-radio.png" />
+    <Content Include="img\elements\success-check.png" />
+    <Content Include="img\elements\success-radio.png" />
+    <Content Include="img\elements\t1.jpg" />
+    <Content Include="img\elements\t2.jpg" />
+    <Content Include="img\elements\t3.jpg" />
+    <Content Include="img\elements\t4.jpg" />
+    <Content Include="img\elements\user1.png" />
+    <Content Include="img\elements\user2.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\p3.jpg" />
+    <Content Include="img\pattern-bg.jpg" />
+    <Content Include="img\play-btn.png" />
+    <Content Include="img\play.png" />
+    <Content Include="img\r1.png" />
+    <Content Include="img\review-bg.jpg" />
+    <Content Include="img\screen-bg1.png" />
+    <Content Include="img\t1.jpg" />
+    <Content Include="img\t1.png" />
+    <Content Include="img\t2.jpg" />
+    <Content Include="img\t2.png" />
+    <Content Include="img\t3.jpg" />
+    <Content Include="img\t3.png" />
+    <Content Include="img\t4.jpg" />
+    <Content Include="img\top-banner.jpg" />
+    <Content Include="img\ui-icons_444444_256x240.png" />
+    <Content Include="img\user.png" />
+    <Content Include="img\video-bg.jpg" />
+    <Content Include="js\easing.min.js" />
+    <Content Include="js\hoverIntent.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.ajaxchimp.min.js" />
+    <Content Include="js\jquery.circlechart.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.nice-select.min.js" />
+    <Content Include="js\login-script.js" />
+    <Content Include="js\mail-script.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\mn-accordion.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\superfish.min.js" />
+    <Content Include="js\vendor\bootstrap.min.js" />
+    <Content Include="js\vendor\jquery-2.2.4.min.js" />
+    <Content Include="menu.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="login.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="check_out.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_dashboard.aspx.cs">
+      <DependentUpon>admin_dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_dashboard.aspx.designer.cs">
+      <DependentUpon>admin_dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cart.aspx.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cart.aspx.designer.cs">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="check_out.aspx.cs">
+      <DependentUpon>check_out.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="check_out.aspx.designer.cs">
+      <DependentUpon>check_out.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="checkout-resource\vendor\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="checkout-resource\vendor\jquery.cookie\component.json" />
+    <Content Include="checkout-resource\vendor\jquery.cookie\cookie.jquery.json" />
+    <Content Include="checkout-resource\vendor\popper.js\umd\poppper.js.flow" />
+    <Content Include="dashboard-resource\assets\css\demo_1\style.css.map" />
+    <Content Include="dashboard-resource\assets\css\shared\style.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\bootstrap.map" />
+    <Content Include="css\main.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\Linearicons-Free.eot" />
+    <Content Include="fonts\Linearicons-Free.ttf" />
+    <Content Include="fonts\Linearicons-Free.woff" />
+    <Content Include="fonts\Linearicons-Free.woff2" />
+    <Content Include="img\.DS_Store" />
+    <Content Include="img\blog\.DS_Store" />
+    <Content Include="js\.DS_Store" />
+    <Content Include="scss\.DS_Store" />
+    <Content Include="scss\bootstrap.scss" />
+    <Content Include="scss\bootstrap\.DS_Store" />
+    <Content Include="scss\bootstrap\bootstrap-grid.scss" />
+    <Content Include="scss\bootstrap\bootstrap-reboot.scss" />
+    <Content Include="scss\bootstrap\bootstrap.scss" />
+    <Content Include="scss\bootstrap\mixins\_alert.scss" />
+    <Content Include="scss\bootstrap\mixins\_background-variant.scss" />
+    <Content Include="scss\bootstrap\mixins\_badge.scss" />
+    <Content Include="scss\bootstrap\mixins\_border-radius.scss" />
+    <Content Include="scss\bootstrap\mixins\_box-shadow.scss" />
+    <Content Include="scss\bootstrap\mixins\_breakpoints.scss" />
+    <Content Include="scss\bootstrap\mixins\_buttons.scss" />
+    <Content Include="scss\bootstrap\mixins\_caret.scss" />
+    <Content Include="scss\bootstrap\mixins\_clearfix.scss" />
+    <Content Include="scss\bootstrap\mixins\_float.scss" />
+    <Content Include="scss\bootstrap\mixins\_forms.scss" />
+    <Content Include="scss\bootstrap\mixins\_gradients.scss" />
+    <Content Include="scss\bootstrap\mixins\_grid-framework.scss" />
+    <Content Include="scss\bootstrap\mixins\_grid.scss" />
+    <Content Include="scss\bootstrap\mixins\_hover.scss" />
+    <Content Include="scss\bootstrap\mixins\_image.scss" />
+    <Content Include="scss\bootstrap\mixins\_list-group.scss" />
+    <Content Include="scss\bootstrap\mixins\_lists.scss" />
+    <Content Include="scss\bootstrap\mixins\_nav-divider.scss" />
+    <Content Include="scss\bootstrap\mixins\_navbar-align.scss" />
+    <Content Include="scss\bootstrap\mixins\_pagination.scss" />
+    <Content Include="scss\bootstrap\mixins\_reset-text.scss" />
+    <Content Include="scss\bootstrap\mixins\_resize.scss" />
+    <Content Include="scss\bootstrap\mixins\_screen-reader.scss" />
+    <Content Include="scss\bootstrap\mixins\_size.scss" />
+    <Content Include="scss\bootstrap\mixins\_table-row.scss" />
+    <Content Include="scss\bootstrap\mixins\_text-emphasis.scss" />
+    <Content Include="scss\bootstrap\mixins\_text-hide.scss" />
+    <Content Include="scss\bootstrap\mixins\_text-truncate.scss" />
+    <Content Include="scss\bootstrap\mixins\_transition.scss" />
+    <Content Include="scss\bootstrap\mixins\_visibility.scss" />
+    <Content Include="scss\bootstrap\utilities\_align.scss" />
+    <Content Include="scss\bootstrap\utilities\_background.scss" />
+    <Content Include="scss\bootstrap\utilities\_borders.scss" />
+    <Content Include="scss\bootstrap\utilities\_clearfix.scss" />
+    <Content Include="scss\bootstrap\utilities\_display.scss" />
+    <Content Include="scss\bootstrap\utilities\_embed.scss" />
+    <Content Include="scss\bootstrap\utilities\_flex.scss" />
+    <Content Include="scss\bootstrap\utilities\_float.scss" />
+    <Content Include="scss\bootstrap\utilities\_position.scss" />
+    <Content Include="scss\bootstrap\utilities\_screenreaders.scss" />
+    <Content Include="scss\bootstrap\utilities\_sizing.scss" />
+    <Content Include="scss\bootstrap\utilities\_spacing.scss" />
+    <Content Include="scss\bootstrap\utilities\_text.scss" />
+    <Content Include="scss\bootstrap\utilities\_visibility.scss" />
+    <Content Include="scss\bootstrap\_alert.scss" />
+    <Content Include="scss\bootstrap\_badge.scss" />
+    <Content Include="scss\bootstrap\_breadcrumb.scss" />
+    <Content Include="scss\bootstrap\_button-group.scss" />
+    <Content Include="scss\bootstrap\_buttons.scss" />
+    <Content Include="scss\bootstrap\_card.scss" />
+    <Content Include="scss\bootstrap\_carousel.scss" />
+    <Content Include="scss\bootstrap\_close.scss" />
+    <Content Include="scss\bootstrap\_code.scss" />
+    <Content Include="scss\bootstrap\_custom-forms.scss" />
+    <Content Include="scss\bootstrap\_dropdown.scss" />
+    <Content Include="scss\bootstrap\_forms.scss" />
+    <Content Include="scss\bootstrap\_functions.scss" />
+    <Content Include="scss\bootstrap\_grid.scss" />
+    <Content Include="scss\bootstrap\_images.scss" />
+    <Content Include="scss\bootstrap\_input-group.scss" />
+    <Content Include="scss\bootstrap\_jumbotron.scss" />
+    <Content Include="scss\bootstrap\_list-group.scss" />
+    <Content Include="scss\bootstrap\_media.scss" />
+    <Content Include="scss\bootstrap\_mixins.scss" />
+    <Content Include="scss\bootstrap\_modal.scss" />
+    <Content Include="scss\bootstrap\_nav.scss" />
+    <Content Include="scss\bootstrap\_navbar.scss" />
+    <Content Include="scss\bootstrap\_pagination.scss" />
+    <Content Include="scss\bootstrap\_popover.scss" />
+    <Content Include="scss\bootstrap\_print.scss" />
+    <Content Include="scss\bootstrap\_progress.scss" />
+    <Content Include="scss\bootstrap\_reboot.scss" />
+    <Content Include="scss\bootstrap\_root.scss" />
+    <Content Include="scss\bootstrap\_tables.scss" />
+    <Content Include="scss\bootstrap\_tooltip.scss" />
+    <Content Include="scss\bootstrap\_transitions.scss" />
+    <Content Include="scss\bootstrap\_type.scss" />
+    <Content Include="scss\bootstrap\_utilities.scss" />
+    <Content Include="scss\bootstrap\_variables.scss" />
+    <Content Include="scss\main.scss" />
+    <Content Include="scss\theme\.DS_Store" />
+    <Content Include="scss\theme\_elements.scss" />
+    <Content Include="scss\theme\_flexbox.scss" />
+    <Content Include="scss\theme\_footer.scss" />
+    <Content Include="scss\theme\_header.scss" />
+    <Content Include="scss\theme\_home.scss" />
+    <Content Include="scss\theme\_mixins.scss" />
+    <Content Include="scss\theme\_reset.scss" />
+    <Content Include="scss\theme\_variables.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="checkout-resource\vendor\font-awesome\less\" />
+    <Folder Include="checkout-resource\vendor\font-awesome\scss\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59927</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44356/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
