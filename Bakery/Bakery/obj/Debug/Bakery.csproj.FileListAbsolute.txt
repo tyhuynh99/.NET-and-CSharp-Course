@@ -52,3 +52,4 @@ D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\bin\Microsoft.CodeDom.Provider
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.csproj.CopyComplete
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.dll
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.pdb
+D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache

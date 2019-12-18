@@ -10,12 +10,13 @@
 <body>
     <div class="login-page">
         <div class="form">
-            <form action="login.aspx" class="login-form" method="post" runat="server">
+            <form action="login.aspx" class="login-form" method="post" runat="server">             
                 <label>Username</label>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
                 <label>Password</label>
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
+                <asp:TextBox ID="txtPassword" TextMode="Password" runat="server"></asp:TextBox>
+                <asp:Button ID="Button1" runat="server" Text="Login"  OnClick="Button1_Click" />
+                <asp:Label ID="txtMess" runat="server" Text="" ForeColor="Red"></asp:Label>
             </form>
             <p class="message">Not registered? <a href="register.aspx">Create an account</a></p>
             <p class="message"><a href="index.aspx">Back to Home</a></p>

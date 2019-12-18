@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
@@ -19,15 +20,56 @@ namespace Bakery
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            //SqlConnection conn = new SqlConnection("Data Source=SE130040; Initial Catalog=Bakery;uid=sa;pwd=tyhuynh99");
-            //conn.Open();
-            //SqlCommand com = new SqlCommand("Select * from Account where Username=@user", conn);
-            //com.Parameters.AddWithValue("@user",TextBox1.Text.Trim());
-            //if(com.ExecuteNonQuery() > 0)
-            //{
-            //    Response.Redirect("index.aspx");
-            //}
-            //conn.Close();
+            txtMess.Text = "";
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Constr"].ConnectionString);
+            SqlCommand com;
+            SqlDataReader dr;
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text.Trim();
+            string role, fullname;
+            try
+            {
+                conn.Open();
+                com = new SqlCommand("Select RoleId, Fullname From Account Where Username = @username And Password = @password", conn);
+                com.Parameters.AddWithValue("@username", username);
+                com.Parameters.AddWithValue("@password", password);
+                dr = com.ExecuteReader();
+                if (dr.Read())
+                {
+                    role = dr.GetString(0).Trim();
+                    fullname = dr.GetString(1).Trim();
+                    string[] account = { username, fullname, role };
+                    Session.Add("Account", account);
+                    if (role.Equals("admin"))
+                    {
+                        Response.Redirect("admin_dashboard.aspx");
+                        //document.getElementById('reg').style.display = 'none'
+                    }
+                    else if (role.Equals("user")) 
+                    {
+                        Response.Redirect("index.aspx");
+                    } 
+                    else
+                    {
+                        txtMess.Text = "This role is not supported !";
+                        Session.Remove("Account");
+                        string[] account1 = (string[])Session["Account"];
+                    }
+                }
+                else
+                {
+                    txtMess.Text = "Incorrect username or password";
+                }
+            }
+            catch (Exception)
+            {
+                txtMess.Text = "Cannot connect to Server";
+            }
+            finally
+            {
+                conn.Close();
+            }
+            
         }
     }
 }

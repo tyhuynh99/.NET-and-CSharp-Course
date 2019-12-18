@@ -22,6 +22,20 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/main.css">
+    <script>
+        function loggedDisplay() {
+            document.getElementById('reg').style.display = "none";
+            document.getElementById('log').style.display = "none";
+            document.getElementById('acc').style.display = "inline";
+            document.getElementById('cart').style.display = "inline";
+        }
+        function notLoggedDisplay() {
+            document.getElementById('reg').style.display = "inline";
+            document.getElementById('log').style.display = "inline";
+            document.getElementById('acc').style.display = "none";
+            document.getElementById('cart').style.display = "none";
+        }
+    </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -57,12 +71,10 @@
                             <li><a href="menu.aspx">Menu</a></li>
                             <li><a href="contact.aspx">Contact</a></li>
                             <li>|</li>
-                            <li><a href="register.aspx">Register</a></li>
-                            <li><a href="login.aspx"><b>Login</b></a></li>
-                            <li><a href="cart.aspx">Cart</a></li>
-                            <li><a href="admin_dashboard.aspx">Admin</a></li>
-                            <%--          <li>|</li>--%>
-                            <%-- <li><a href="account_info.aspx">Nguyen Van A</></li>--%>
+                            <li id="reg"><a href="register.aspx">Register</a></li>
+                            <li id="log"><a href="login.aspx"><b>Login</b></a></li>
+                            <li id="acc"><a href="account_profile.aspx">Profile</></a></li>
+                            <li id="cart"><a href="cart.aspx">Cart</a></li>
                         </ul>
                     </nav>
                     <!-- #nav-menu-container -->
