@@ -30,7 +30,7 @@ namespace Bakery
             try
             {
                 conn.Open();
-                com = new SqlCommand("Select RoleId, Fullname From Account Where Username = @username And Password = @password", conn);
+                com = new SqlCommand("Select RoleId, Fullname, Img From Account Where Username = @username And Password = @password", conn);
                 com.Parameters.AddWithValue("@username", username);
                 com.Parameters.AddWithValue("@password", password);
                 dr = com.ExecuteReader();
@@ -38,8 +38,18 @@ namespace Bakery
                 {
                     role = dr.GetString(0).Trim();
                     fullname = dr.GetString(1).Trim();
+
+                    //bên Thanh lấy thêm 1 số attribute
+                    string img = dr.GetString(2).Trim();
+                    Session.Add("ID", username);
+                    Session.Add("IMG", img);
+                    Session.Add("PASS", password);
+                    Session.Add("FULLNAME", fullname);
+                    Session.Add("ROLE", role);
                     string[] account = { username, fullname, role };
                     Session.Add("Account", account);
+
+
                     if (role.Equals("admin"))
                     {
                         Response.Redirect("admin_dashboard.aspx");

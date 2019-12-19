@@ -45,51 +45,13 @@
                                 <div class="nav flex-column flex-sm-row nav-pills">
                                     <a href="#" class="nav-link flex-sm-fill text-sm-center active"><i class="fa fa-map-marker"></i>Address</a>
                                     <a href="#" class="nav-link flex-sm-fill text-sm-center"><i class="fa fa-money"></i>Payment Method</a>
-                                    <a href="#" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-eye"></i>Order Review</a>
+                                    <a href="#" class="nav-link flex-sm-fill text-sm-center"><i class="fa fa-eye"></i>Order Review</a>
                                 </div>
                                 <div class="content py-3">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="firstname">Firstname</label>
-                                                <input id="firstname" type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="lastname">Lastname</label>
-                                                <input id="lastname" type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.row-->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="company">Company</label>
-                                                <input id="company" type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="street">Street</label>
-                                                <input id="street" type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.row-->
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="phone">Telephone</label>
-                                                <input id="phone" type="text" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label for="email">Email</label>
-                                                <input id="email" type="text" class="form-control">
-                                            </div>
+                                        <label for="firstname" class="col-md-6 form-group">Address</label>
+                                        <div class="col-md-12">
+                                            <input id="Address" name="Address" type="text" class="form-control" style="width: 100%">
                                         </div>
                                     </div>
                                     <!-- /.row-->
@@ -102,7 +64,7 @@
                             <div class="nav flex-column flex-sm-row nav-pills">
                                 <a href="#" class="nav-link flex-sm-fill text-sm-center"><i class="fa fa-map-marker"></i>Address</a>
                                 <a href="#" class="nav-link flex-sm-fill text-sm-center active"><i class="fa fa-money"></i>Payment Method</a>
-                                <a href="#" class="nav-link flex-sm-fill text-sm-center"> <i class="fa fa-eye"></i>Order Review</a>
+                                <a href="#" class="nav-link flex-sm-fill text-sm-center"><i class="fa fa-eye"></i>Order Review</a>
                             </div>
                             <div class="content py-3">
                                 <div class="row">
@@ -111,7 +73,7 @@
                                             <h4>Paypal</h4>
                                             <p>We like it all.</p>
                                             <div class="box-footer text-center">
-                                                <input type="radio" name="payment" value="payment1">
+                                                <input type="radio" name="payment" value="Paypal" checked="checked">
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +82,7 @@
                                             <h4>Payment gateway</h4>
                                             <p>VISA and Mastercard only.</p>
                                             <div class="box-footer text-center">
-                                                <input type="radio" name="payment" value="payment2">
+                                                <input type="radio" name="payment" value="Visa">
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +91,7 @@
                                             <h4>Cash on delivery</h4>
                                             <p>You pay when you get it.</p>
                                             <div class="box-footer text-center">
-                                                <input type="radio" name="payment" value="payment3">
+                                                <input type="radio" name="payment" value="COD">
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +107,7 @@
                             <div class="nav flex-column flex-sm-row nav-pills">
                                 <a href="#" class="nav-link flex-sm-fill text-sm-center"><i class="fa fa-map-marker"></i>Address</a>
                                 <a href="#" class="nav-link flex-sm-fill text-sm-center "><i class="fa fa-money"></i>Payment Method</a>
-                                <a href="#" class="nav-link flex-sm-fill text-sm-center active"> <i class="fa fa-eye"></i>Order Review</a>
+                                <a href="#" class="nav-link flex-sm-fill text-sm-center active"><i class="fa fa-eye"></i>Order Review</a>
                             </div>
                             <div class="content">
                                 <div class="table-responsive">
@@ -155,34 +117,29 @@
                                                 <th colspan="2">Product</th>
                                                 <th>Quantity</th>
                                                 <th>Unit price</th>
-                                                <th>Discount</th>
                                                 <th>Total</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td><a href="#">
-                                                    <img src="img/detailsquare.jpg" alt="White Blouse Armani"></a></td>
-                                                <td><a href="#">White Blouse Armani</a></td>
-                                                <td>2</td>
-                                                <td>$123.00</td>
-                                                <td>$0.00</td>
-                                                <td>$246.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td><a href="#">
-                                                    <img src="img/basketsquare.jpg" alt="Black Blouse Armani"></a></td>
-                                                <td><a href="#">Black Blouse Armani</a></td>
-                                                <td>1</td>
-                                                <td>$200.00</td>
-                                                <td>$0.00</td>
-                                                <td>$200.00</td>
-                                            </tr>
+                                            <asp:ListView ID="lvCart" runat="server">
+                                                <ItemTemplate>
+                                                    <tr>
+                                                        <td><a href="#">
+                                                            <img src="<%# Eval("Key.ImgUrl") %>" alt="<%# Eval("Key.ProName") %>"></a></td>
+                                                        <td><a href="#"><%# Eval("Key.ProName") %></a></td>
+                                                        <td>
+                                                            <%# Eval("Value") %>
+                                                        </td>
+                                                        <td>$<%# Eval("Key.Price") %></td>
+                                                        <td><%#String.Format("{0:c}", Convert.ToDecimal(Eval("Key.Price")) * Convert.ToInt32(Eval("Value"))) %></td>
+                                                    </tr>
+                                                </ItemTemplate>
+                                            </asp:ListView>
                                         </tbody>
                                         <tfoot>
                                             <tr>
-                                                <th colspan="5">Total</th>
-                                                <th>$446.00</th>
+                                                <th colspan="4">Total</th>
+                                                <th colspan="1">$<%= total %></th>
                                             </tr>
                                         </tfoot>
                                     </table>
@@ -191,7 +148,9 @@
                             </div>
                             <!-- /.content-->
                             <div class="box-footer d-flex justify-content-between">
-                                <a href="#" class="btn btn-primary">Place an order<i class="fa fa-chevron-right"></i></a>
+                                <asp:LinkButton ID="linkCheckout" runat="server" CssClass="btn btn-primary" OnClick="linkCheckout_Click">
+                                    Place an order<i class="fa fa-chevron-right"></i>
+                                </asp:LinkButton>
                             </div>
                         </div>
                     </div>
@@ -208,19 +167,19 @@
                                         <tbody>
                                             <tr>
                                                 <td>Order subtotal</td>
-                                                <th>$446.00</th>
+                                                <th>$<%= total %></th>
                                             </tr>
                                             <tr>
                                                 <td>Shipping and handling</td>
-                                                <th>$10.00</th>
+                                                <th>$10.0</th>
                                             </tr>
                                             <tr>
                                                 <td>Tax</td>
-                                                <th>$0.00</th>
+                                                <th>$<%= tax %></th>
                                             </tr>
                                             <tr class="total">
                                                 <td>Total</td>
-                                                <th>$456.00</th>
+                                                <th>$<%= BillTotal %></th>
                                             </tr>
                                         </tbody>
                                     </table>

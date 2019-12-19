@@ -36,7 +36,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                     </p>
-                    <a class="primary-btn squire mx-auto mt-20" href="about.aspx">Get Started Now</a>
+                    <a class="primary-btn squire mx-auto mt-20" href="about.aspx">More about us</a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                         <div class="thumb">
                             <img class="img-fluid" src="img/c1.jpg" alt="">
                         </div>
-                        <a href="#">
+                        <a href="menu.aspx">
                             <h4>Pizza</h4>
                         </a>
                         <p>
@@ -73,7 +73,7 @@
                         <div class="thumb">
                             <img class="img-fluid" src="img/c2.jpg" alt="">
                         </div>
-                        <a href="#">
+                        <a href="menu.aspx">
                             <h4>Bread</h4>
                         </a>
                         <p>
@@ -86,7 +86,7 @@
                         <div class="thumb">
                             <img class="img-fluid" src="img/c3.jpg" alt="">
                         </div>
-                        <a href="#">
+                        <a href="menu.aspx">
                             <h4>Burgers</h4>
                         </a>
                         <p>
@@ -99,7 +99,7 @@
                         <div class="thumb">
                             <img class="img-fluid" src="img/c4.jpg" alt="">
                         </div>
-                        <a href="#">
+                        <a href="menu.aspx">
                             <h4>Chicken</h4>
                         </a>
                         <p>

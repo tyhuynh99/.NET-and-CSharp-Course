@@ -53,3 +53,385 @@ D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.csproj.CopyCo
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.dll
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.pdb
 D:\FU\PRN292_C# .Net\Project\Bakery\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\Bakery.dll.config
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\Bakery.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\Bakery.pdb
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csc.exe
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csc.exe.config
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csc.rsp
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csi.exe
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csi.exe.config
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\csi.rsp
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.AppContext.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Console.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.IO.Compression.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.IO.Pipes.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Claims.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.ValueTuple.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\vbc.exe
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\vbc.exe.config
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\vbc.rsp
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\VBCSCompiler.exe
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\obj\Debug\Bakery.dll
+C:\Users\bbbyl\Desktop\ProjectC#\ProjectC-\Bakery\Bakery\obj\Debug\Bakery.pdb
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\Bakery.dll.config
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\Bakery.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\Bakery.pdb
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csc.exe
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csc.exe.config
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csc.rsp
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csi.exe
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csi.exe.config
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\csi.rsp
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.AppContext.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Collections.Immutable.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Console.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.IO.Compression.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.IO.FileSystem.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.IO.Pipes.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.AccessControl.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Claims.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.ValueTuple.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Xml.XPath.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\vbc.exe
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\vbc.exe.config
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\vbc.rsp
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\VBCSCompiler.exe
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\roslyn\VBCSCompiler.exe.config
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\obj\Debug\Bakery.dll
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\obj\Debug\Bakery.pdb
+D:\FU\PRN292_C# .Net\Project\Bakery\v1.1\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+D:\ki 5\PRN292\C#\v1.1\Bakery\obj\Debug\Bakery.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\obj\Debug\Bakery.pdb
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\Bakery.dll.config
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\Bakery.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\Bakery.pdb
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csc.exe
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csc.exe.config
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csc.rsp
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csi.exe
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csi.exe.config
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\csi.rsp
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.AppContext.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Collections.Immutable.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Console.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.IO.Compression.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.IO.FileSystem.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.IO.Pipes.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.AccessControl.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Claims.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.ValueTuple.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Xml.XPath.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\vbc.exe
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\vbc.exe.config
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\vbc.rsp
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\VBCSCompiler.exe
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\roslyn\VBCSCompiler.exe.config
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ki 5\PRN292\C#\v1.1\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ki 5\PRN292\C#\v1.1\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\candy\Desktop\v2.2\Bakery\bin\Bakery.dll.config
+C:\Users\candy\Desktop\v2.2\Bakery\bin\Bakery.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\Bakery.pdb
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csc.exe
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csc.exe.config
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csc.rsp
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csi.exe
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csi.exe.config
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\csi.rsp
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.AppContext.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Console.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.IO.Compression.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.IO.Pipes.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Claims.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.ValueTuple.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\vbc.exe
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\vbc.exe.config
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\vbc.rsp
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\VBCSCompiler.exe
+C:\Users\candy\Desktop\v2.2\Bakery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\candy\Desktop\v2.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\candy\Desktop\v2.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\candy\Desktop\v2.2\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\candy\Desktop\v2.2\Bakery\obj\Debug\Bakery.dll
+C:\Users\candy\Desktop\v2.2\Bakery\obj\Debug\Bakery.pdb
+D:\NamBH\v3.2\Bakery\obj\Debug\Bakery.dll
+D:\NamBH\v3.2\Bakery\obj\Debug\Bakery.pdb
+D:\NamBH\v3.2\Bakery\bin\Bakery.dll.config
+D:\NamBH\v3.2\Bakery\bin\Bakery.dll
+D:\NamBH\v3.2\Bakery\bin\Bakery.pdb
+D:\NamBH\v3.2\Bakery\bin\roslyn\csc.exe
+D:\NamBH\v3.2\Bakery\bin\roslyn\csc.exe.config
+D:\NamBH\v3.2\Bakery\bin\roslyn\csc.rsp
+D:\NamBH\v3.2\Bakery\bin\roslyn\csi.exe
+D:\NamBH\v3.2\Bakery\bin\roslyn\csi.exe.config
+D:\NamBH\v3.2\Bakery\bin\roslyn\csi.rsp
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+D:\NamBH\v3.2\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.AppContext.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Collections.Immutable.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Console.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.IO.Compression.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.IO.FileSystem.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.IO.Pipes.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.AccessControl.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Claims.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.ValueTuple.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Xml.XPath.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NamBH\v3.2\Bakery\bin\roslyn\vbc.exe
+D:\NamBH\v3.2\Bakery\bin\roslyn\vbc.exe.config
+D:\NamBH\v3.2\Bakery\bin\roslyn\vbc.rsp
+D:\NamBH\v3.2\Bakery\bin\roslyn\VBCSCompiler.exe
+D:\NamBH\v3.2\Bakery\bin\roslyn\VBCSCompiler.exe.config
+D:\NamBH\v3.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NamBH\v3.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NamBH\v3.2\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\Bakery.dll.config
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\Bakery.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\Bakery.pdb
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csc.exe
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csc.exe.config
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csc.rsp
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csi.exe
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csi.exe.config
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\csi.rsp
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Console.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Claims.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\vbc.exe
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\vbc.exe.config
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\vbc.rsp
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\Desktop\v4.2\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache
+C:\Users\ACER\Desktop\v4.2\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\ACER\Desktop\v4.2\Bakery\obj\Debug\Bakery.dll
+C:\Users\ACER\Desktop\v4.2\Bakery\obj\Debug\Bakery.pdb
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\Bakery.dll.config
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\Bakery.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\Bakery.pdb
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csc.exe
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csc.exe.config
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csc.rsp
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csi.exe
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csi.exe.config
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\csi.rsp
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.AppContext.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Console.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.IO.Compression.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Claims.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.ValueTuple.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\vbc.exe
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\vbc.exe.config
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\vbc.rsp
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\VBCSCompiler.exe
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.csproj.CopyComplete
+C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.dll
+C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.pdb
+C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache

@@ -11,8 +11,9 @@ namespace Bakery
 {
     public partial class account_profile : System.Web.UI.Page
     {
-        public string username, fullname, addr, email, img, role;
-        public DateTime dob;
+        public string username, fullname, addr, email, img, role, dob;
+        //public DateTime dob;
+        public double allTotal;
         public List<string[]> AllOrderList = new List<string[]>();
         private string[] account;
         private SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Constr"].ConnectionString);
@@ -29,6 +30,7 @@ namespace Bakery
         }
         private void loadAccount()
         {
+
             try
             {
                 conn.Open();
@@ -40,8 +42,8 @@ namespace Bakery
                     fullname = dr.GetString(0);
                     addr = dr.GetString(1);
                     email = dr.GetString(2);
-                    img = dr.GetString(3);
-                    dob = dr.GetDateTime(4);
+                    img ="img/face/"+ dr.GetString(3);
+                    dob = dr.GetDateTime(4).ToShortDateString();
                 }
             }
             catch (Exception)
@@ -55,12 +57,13 @@ namespace Bakery
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Session.Remove("Account");
+            Session.Clear();
             Response.Redirect("index.aspx");
         }
 
         private List<string[]> getAllOrder()
         {
+            allTotal = 0;
             List<string[]> allOrder = new List<string[]>();
             List<string[]> orderIdList, orderDetailList;
             string productName, quantity, status, dateOrder, total, orderId;
@@ -77,6 +80,7 @@ namespace Bakery
                         status = subItem[2];
                         dateOrder = item[1];
                         total = item[2];
+                        allTotal += double.Parse(total);
                         orderId = item[0];
                         string[] order = {orderId, productName, quantity, dateOrder, total, status};
                         allOrder.Add(order);

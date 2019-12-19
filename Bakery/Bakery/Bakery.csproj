@@ -72,7 +72,14 @@
     <Content Include="about.aspx" />
     <Content Include="account_profile.aspx" />
     <Content Include="account_setting.aspx" />
+    <Content Include="admin_account.aspx" />
     <Content Include="admin_dashboard.aspx" />
+    <Content Include="admin_newAccount.aspx" />
+    <Content Include="admin_orderDetails.aspx" />
+    <Content Include="admin_orders.aspx" />
+    <Content Include="admin_product.aspx" />
+    <Content Include="admin_productDetail.aspx" />
+    <Content Include="admin_profile.aspx" />
     <Content Include="cart.aspx" />
     <Content Include="checkout-resource\css\custom.css" />
     <Content Include="checkout-resource\css\style.blue.css" />
@@ -178,6 +185,7 @@
     <Content Include="dashboard-resource\assets\images\email\slack.png" />
     <Content Include="dashboard-resource\assets\images\email\twitter.png" />
     <Content Include="dashboard-resource\assets\images\email\youtube.png" />
+    <Content Include="img\background.jpg" />
     <Content Include="img\faces-clipart\pic-1.png" />
     <Content Include="img\faces-clipart\pic-2.png" />
     <Content Include="img\faces-clipart\pic-3.png" />
@@ -444,6 +452,11 @@
     <Content Include="img\face\face7.jpg" />
     <Content Include="img\face\face8.jpg" />
     <Content Include="img\face\face9.jpg" />
+    <Content Include="img\piz-1.jpg" />
+    <Content Include="img\piz-2.jpg" />
+    <Content Include="img\piz-3.jpg" />
+    <Content Include="img\piz-4.jpg" />
+    <Content Include="img\piz-5.jpg" />
     <Content Include="index.aspx" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -562,6 +575,7 @@
     <Content Include="js\vendor\bootstrap.min.js" />
     <Content Include="js\vendor\jquery-2.2.4.min.js" />
     <Content Include="menu.aspx" />
+    <Content Include="thank_you.aspx" />
     <Content Include="Web.config" />
     <Content Include="login.aspx" />
     <Content Include="register.aspx" />
@@ -589,12 +603,61 @@
     <Compile Include="account_setting.aspx.designer.cs">
       <DependentUpon>account_setting.aspx</DependentUpon>
     </Compile>
+    <Compile Include="admin_account.aspx.cs">
+      <DependentUpon>admin_account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_account.aspx.designer.cs">
+      <DependentUpon>admin_account.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin_dashboard.aspx.cs">
       <DependentUpon>admin_dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin_dashboard.aspx.designer.cs">
       <DependentUpon>admin_dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_newAccount.aspx.cs">
+      <DependentUpon>admin_newAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_newAccount.aspx.designer.cs">
+      <DependentUpon>admin_newAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_orderDetails.aspx.cs">
+      <DependentUpon>admin_orderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_orderDetails.aspx.designer.cs">
+      <DependentUpon>admin_orderDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_orders.aspx.cs">
+      <DependentUpon>admin_orders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_orders.aspx.designer.cs">
+      <DependentUpon>admin_orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_product.aspx.cs">
+      <DependentUpon>admin_product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_product.aspx.designer.cs">
+      <DependentUpon>admin_product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_productDetail.aspx.cs">
+      <DependentUpon>admin_productDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_productDetail.aspx.designer.cs">
+      <DependentUpon>admin_productDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_profile.aspx.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_profile.aspx.designer.cs">
+      <DependentUpon>admin_profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
@@ -627,6 +690,16 @@
     <Compile Include="menu.aspx.designer.cs">
       <DependentUpon>menu.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Model\Cart.cs" />
+    <Compile Include="Model\CartObj.cs" />
+    <Compile Include="Model\OrderDAO.cs" />
+    <Compile Include="Model\OrderDetailDAO.cs" />
+    <Compile Include="Model\OrderDetailDTO.cs" />
+    <Compile Include="Model\OrderDTO.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\ProductDAO.cs" />
+    <Compile Include="Model\ProductDTO.cs" />
+    <Compile Include="Model\RandomObj.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -655,6 +728,13 @@
     </Compile>
     <Compile Include="check_out.aspx.designer.cs">
       <DependentUpon>check_out.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="thank_you.aspx.cs">
+      <DependentUpon>thank_you.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="thank_you.aspx.designer.cs">
+      <DependentUpon>thank_you.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -792,7 +872,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="checkout-resource\vendor\font-awesome\less\" />
     <Folder Include="checkout-resource\vendor\font-awesome\scss\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
