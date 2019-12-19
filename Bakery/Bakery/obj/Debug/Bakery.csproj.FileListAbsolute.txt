@@ -434,4 +434,3 @@ C:\Users\ACER\Desktop\v5.2\Bakery\bin\Microsoft.CodeDom.Providers.DotNetCompiler
 C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.csproj.CopyComplete
 C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.dll
 C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.pdb
-C:\Users\ACER\Desktop\v5.2\Bakery\obj\Debug\Bakery.csprojAssemblyReference.cache

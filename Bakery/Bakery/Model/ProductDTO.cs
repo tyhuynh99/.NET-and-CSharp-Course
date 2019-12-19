@@ -27,7 +27,7 @@ namespace Bakery.Model
             ProName = proName;
             Price = price;
             Status = status;
-            ImgUrl = imgUrl;
+            ImgUrl = imgUrl.Replace("~/","");
             Description = description;
             CategoryID = categoryID;
             Quantity = quantity;

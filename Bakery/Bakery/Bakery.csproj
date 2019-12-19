@@ -186,6 +186,16 @@
     <Content Include="dashboard-resource\assets\images\email\twitter.png" />
     <Content Include="dashboard-resource\assets\images\email\youtube.png" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\bur-1.jpg" />
+    <Content Include="img\bur-2.jpg" />
+    <Content Include="img\bur-3.jpg" />
+    <Content Include="img\bur-4.jpg" />
+    <Content Include="img\bur-5.jpg" />
+    <Content Include="img\chick-1.jpg" />
+    <Content Include="img\chick-2.jpg" />
+    <Content Include="img\chick-3.jpg" />
+    <Content Include="img\chick-4.jpg" />
+    <Content Include="img\chick-5.jpg" />
     <Content Include="img\faces-clipart\pic-1.png" />
     <Content Include="img\faces-clipart\pic-2.png" />
     <Content Include="img\faces-clipart\pic-3.png" />

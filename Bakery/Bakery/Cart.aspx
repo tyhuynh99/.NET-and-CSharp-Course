@@ -59,7 +59,9 @@
                                             <ItemTemplate>
                                                 <tr>
                                                     <td><a href="#">
-                                                        <img src="<%# Eval("Key.ImgUrl") %>" alt="<%# Eval("Key.ProName") %>"></a></td>
+                                                       <%-- <asp:Image ID="Image1" runat="server" ImageUrl="<%# Eval("Key.ImgUrl") %>" AlternateText="<%# Eval("Key.ProName") %>" />--%>
+                                                        <img src="<%# Eval("Key.ImgUrl") %>" alt="<%# Eval("Key.ProName") %>"></a>
+                                                    </td>
                                                     <td><a href="#"><%# Eval("Key.ProName") %></a></td>
                                                     <td>
                                                         <input name='quantity<%# Eval("Key.ProID") %>' id='quantity<%# Eval("Key.ProID") %>' type="number" min="0"
