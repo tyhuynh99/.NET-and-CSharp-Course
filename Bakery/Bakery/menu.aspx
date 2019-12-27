@@ -55,7 +55,8 @@
                     <%--DataList--%>
                     <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" OnItemCommand="DataList1_ItemCommand">
                         <ItemTemplate>
-                            <div class="single-menu-list row justify-content-between align-items-center">
+                            <%--justify-content-between row  align-items-center--%>
+                            <div class="single-menu-list ">
                                 <div class="row">
                                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                         <asp:Image ID="Image10" runat="server" ImageUrl='<%# Bind("imgUrl") %>' />
@@ -63,9 +64,7 @@
                                     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                                         <a href="#">
                                             <h4>
-                                                <asp:Label ID="txtProName" runat="server" Text='<%# Bind("ProName") %>'></asp:Label>
-
-
+                                                <asp:Label ID="txtProName" runat="server" Text='<%# Bind("ProName") %>'></asp:Label>    
                                             </h4>
                                         </a>
                                         <p>
@@ -106,7 +105,8 @@
                     <%--DataList--%>
                     <asp:DataList ID="DataList2" runat="server" DataSourceID="SqlDataSource2" OnItemCommand="DataList2_ItemCommand">
                         <ItemTemplate>
-                            <div class="single-menu-list row justify-content-between align-items-center">
+                            <%--row justify-content-between align-items-center--%>
+                            <div class="single-menu-list ">
                                 <div class="row">
                                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                         <asp:Image ID="Image10" runat="server" ImageUrl='<%# Bind("imgUrl") %>' />
@@ -154,7 +154,8 @@
 
                     <asp:DataList ID="DataList3" runat="server" DataSourceID="SqlDataSource3" OnItemCommand="DataList3_ItemCommand">
                         <ItemTemplate>
-                            <div class="single-menu-list row justify-content-between align-items-center">
+                            <%--row justify-content-between align-items-center--%>
+                            <div class="single-menu-list ">
                                 <div class="row">
                                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                         <asp:Image ID="Image10" runat="server" ImageUrl='<%# Bind("imgUrl") %>' />
@@ -190,7 +191,7 @@
                         </ItemTemplate>
                     </asp:DataList>
 
-                    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:Constr %>" SelectCommand="SELECT [ProId], [ProName], [Price], [Status], [ImgUrl], [Description], [Quantity] FROM [Product] WHERE ([CategoryId] = @CategoryId) AND ([Status] = 'Available')">
+                    <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BakeryConnectionString %>" SelectCommand="SELECT [ProId], [ProName], [Price], [Status], [ImgUrl], [Description], [Quantity] FROM [Product] WHERE ([CategoryId] = @CategoryId) AND ([Status] = 'Available')">
                         <SelectParameters>
                             <asp:Parameter DefaultValue="burger" Name="CategoryId" Type="String" />
                         </SelectParameters>
@@ -201,7 +202,8 @@
                     <%--DataList--%>
                     <asp:DataList ID="DataList4" runat="server" DataSourceID="SqlDataSource4" OnItemCommand="DataList4_ItemCommand">
                         <ItemTemplate>
-                            <div class="single-menu-list row justify-content-between align-items-center">
+                            <%--row justify-content-between align-items-center--%>
+                            <div class="single-menu-list ">
                                 <div class="row">
                                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                                         <asp:Image ID="Image10" runat="server" ImageUrl='<%# Bind("imgUrl") %>' />

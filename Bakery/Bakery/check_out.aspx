@@ -36,7 +36,7 @@
     <div id="all">
         <div id="content">
             <div class="container">
-                <div class="row">
+                <div class="row mt-15">
                     <div id="checkout" class="col-lg-9">
                         <%--Address box--%>
                         <div class="box">
@@ -49,7 +49,7 @@
                                 </div>
                                 <div class="content py-3">
                                     <div class="row">
-                                        <label for="firstname" class="col-md-6 form-group">Address</label>
+                                        <label for="firstname" class="col-md-6 form-group"><i class="fas fa-map-marker-alt"></i> Address</label>
                                         <div class="col-md-12">
                                             <input id="Address" name="Address" type="text" class="form-control" style="width: 100%">
                                         </div>
@@ -70,7 +70,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="box payment-method">
-                                            <h4>Paypal</h4>
+                                            <h4><i class="fab fa-cc-paypal"></i> Paypal</h4>
                                             <p>We like it all.</p>
                                             <div class="box-footer text-center">
                                                 <input type="radio" name="payment" value="Paypal" checked="checked">
@@ -79,7 +79,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="box payment-method">
-                                            <h4>Payment gateway</h4>
+                                            <h4><i class="fab fa-cc-visa"></i> Payment gateway</h4>
                                             <p>VISA and Mastercard only.</p>
                                             <div class="box-footer text-center">
                                                 <input type="radio" name="payment" value="Visa">
@@ -88,7 +88,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="box payment-method">
-                                            <h4>Cash on delivery</h4>
+                                            <h4><i class="fas fa-wallet"></i> Cash on delivery</h4>
                                             <p>You pay when you get it.</p>
                                             <div class="box-footer text-center">
                                                 <input type="radio" name="payment" value="COD">

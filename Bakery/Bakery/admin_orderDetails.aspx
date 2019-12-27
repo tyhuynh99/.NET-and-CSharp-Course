@@ -140,7 +140,7 @@
                                         <br />
 
 
-                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="Data Source=.;Initial Catalog=Bakery;Integrated Security=True" SelectCommand="SELECT OrderId, ProId, Quantity, Status FROM OrderDetail WHERE (OrderId = @OrderId)" UpdateCommand="UPDATE OrderDetail SET Quantity = @Quantity, Status = @Status WHERE (OrderId = @OrderId) AND (ProId = @ProId)">
+                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BakeryConnectionString %>" SelectCommand="SELECT OrderId, ProId, Quantity, Status FROM OrderDetail WHERE (OrderId = @OrderId)" UpdateCommand="UPDATE OrderDetail SET Quantity = @Quantity, Status = @Status WHERE (OrderId = @OrderId) AND (ProId = @ProId)">
                                             <SelectParameters>
                                                 <asp:QueryStringParameter DefaultValue="O-01" Name="OrderId" QueryStringField="OrderId" />
                                             </SelectParameters>

@@ -131,52 +131,69 @@
                                             <SortedDescendingHeaderStyle BackColor="#4870BE" />
                                         </asp:GridView>
                                         <br />
-                                        <h3 style="color:red; font-family: 'Mongolian Baiti'"><span style="color: slategrey; font-size: 13px;">>>> </span>Insert new product<span style="color: slategrey; font-size: 13px;"><<< </span></h3>
-                                        <asp:Image ID="Image2" runat="server" />
-                                        <br />
-                                        <br />
-                                        <label>
-                                            <h4>Product ID:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtProId" runat="server"></asp:TextBox>
-                                        <br />
-                                        <label>
-                                            <h4>Product Name:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtProName" runat="server"></asp:TextBox>
-                                        <br />
-                                        <label>
-                                            <h4>Product Price:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
-                                        <br />
-
-<%--                                        <label>
-                                            <h4>Product Status:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtStatus" runat="server"></asp:TextBox>
-                                        <br />--%>
-                                        <label>
-                                            <h4>Product Description:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtDescription" runat="server"></asp:TextBox>
-                                        <br />
-                                        <label>
-                                            <h4>Category:</h4>
-                                        </label>
-                                        <asp:DropDownList ID="cate" runat="server"></asp:DropDownList>
-                                        <br />
-                                        <label>
-                                            <h4>Quantity:</h4>
-                                        </label>
-                                        <asp:TextBox ID="txtQuantity" TextMode="Number" runat="server"></asp:TextBox>
-                                        <br />
-                                        <asp:Button ID="btnInsert" CssClass="btn btn-primary" runat="server" Text="Insert" OnClick="btnInsert_Click" />
-                                        <asp:Button ID="Button2" CssClass="btn btn-primary" runat="server" Text="Load Image" OnClick="Button2_Click" />
-                                        <asp:FileUpload ID="FileUpload1" runat="server" />
-                                        <asp:Label ID="fileError" runat="server" Text=""></asp:Label>
+                                        
                                         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BakeryConnectionString %>" SelectCommand="SELECT ProId, ProName, Price, Status, ImgUrl, Description, CategoryId, Quantity from [Product] WHERE Status = 'Available'"></asp:SqlDataSource>
                                         <br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <label class="card-title">Insert Product</label>
+                                        <div class="form-group">
+                                            <asp:Image ID="Image2" runat="server" />
+                                            <br />
+                                            <br />
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Product ID
+                                                    </label>
+                                                    <asp:TextBox ID="txtProId" runat="server" CssClass="form-control"></asp:TextBox>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Product Name
+                                                    </label>
+                                                    <asp:TextBox ID="txtProName" runat="server" CssClass="form-control"></asp:TextBox>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Product Price
+                                                    </label>
+                                                    <asp:TextBox ID="txtPrice" runat="server" CssClass="form-control"></asp:TextBox>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Product Description
+                                                    </label>
+                                                    <asp:TextBox ID="txtDescription" runat="server" CssClass="form-control"></asp:TextBox>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Category
+                                                    </label>
+                                                    <asp:DropDownList ID="cate" runat="server" CssClass="form-control"></asp:DropDownList>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <label>
+                                                        Quantity
+                                                    </label>
+                                                    <asp:TextBox ID="txtQuantity" TextMode="Number" runat="server" CssClass="form-control"></asp:TextBox>
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <asp:Button ID="btnInsert" runat="server" Text="Insert" OnClick="btnInsert_Click" CssClass="btn btn-primary" />
+                                            <asp:Button ID="Button2" runat="server" Text="Load Image" OnClick="Button2_Click" CssClass="btn btn-primary" />
+
+                                            <asp:FileUpload ID="FileUpload1" runat="server" />
+                                            <asp:Label ID="fileError" runat="server" Text=""></asp:Label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

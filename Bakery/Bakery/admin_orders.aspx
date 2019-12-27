@@ -160,7 +160,7 @@
                                         <br />
 
 
-                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="Data Source=.;Initial Catalog=Bakery;Integrated Security=True" SelectCommand="SELECT OrderId, OrderDate, Username, Status, Total, Address, PaymentId FROM [Order]"></asp:SqlDataSource>
+                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BakeryConnectionString %>" SelectCommand="SELECT OrderId, OrderDate, Username, Status, Total, Address, PaymentId FROM [Order]"></asp:SqlDataSource>
 
                                         <br />
 

@@ -17,7 +17,7 @@
     <link rel="shortcut icon" href="dashboard-resource/assets/images/favicon.png" />
 </head>
 <body>
-    <form action="admin_productDetail.aspx" method="post" runat="server">
+    <form runat="server">
         <div class="container-scroller">
             <!-- Start Navbar -->
             <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -159,6 +159,7 @@
                                                 <asp:Parameter Name="Quantity" />
                                             </UpdateParameters>
                                         </asp:SqlDataSource>
+
                                         <br />
                                     </div>
                                 </div>

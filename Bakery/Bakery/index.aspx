@@ -15,7 +15,7 @@
                     <p class="text-white mx-auto">
                         Since Americans in the South began roasting pigs publicly, Barbecues have been a staple of North American living. For many, grilling becomes a routine mealtime activity.
                     </p>
-                    <a href="menu.aspx" class="primary-btn squire text-uppercase mt-10">Check Our Menu</a>
+                    <a href="menu.aspx" class="primary-btn squire text-uppercase mt-10"><i class="fas fa-chevron-right"></i> Check Our Menu </a>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                     </p>
-                    <a class="primary-btn squire mx-auto mt-20" href="about.aspx">More about us</a>
+                    <a class="primary-btn squire mx-auto mt-20" href="about.aspx"><i class="fas fa-chevron-right"></i> More about us </a>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
                         </p>
                     </div>
                 </div>
-                <a class="primary-btn mx-auto mt-80" href="menu.aspx">View Full Menu</a>
+                <a class="primary-btn mx-auto mt-80" href="menu.aspx"><i class="fas fa-chevron-right"></i> View Full Menu</a>
             </div>
         </div>
     </section>

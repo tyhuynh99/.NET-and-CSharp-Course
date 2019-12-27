@@ -104,48 +104,53 @@
                                     <div class="card-body">
                                         <h4 class="card-title">My Profile</h4>
                                         <div>
-                                            &nbsp;<a class="nav-link" href="admin_account.aspx">
+                                            <a class="nav-link" href="admin_account.aspx">
                                                 <asp:Image ID="Image1" runat="server" Height="100px" Width="140px" />
                                             </a>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="Label1" runat="server" Text="UserID: "></asp:Label>
-                                            <asp:TextBox ID="txtName" runat="server" ReadOnly="true" Width="323px"></asp:TextBox>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="lbPass" runat="server" Text="Password: "></asp:Label>
-                                            <asp:TextBox ID="txtPass" runat="server" ReadOnly="True"></asp:TextBox>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="lbFullname" runat="server" Text="Fullname: "></asp:Label>
-                                            <asp:TextBox ID="txtFullname" runat="server"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtFullname" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="lbAddress" runat="server" Text="Address: "></asp:Label>
-                                            <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtAddress" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="lbEmail" runat="server" Text="Email: "></asp:Label>
-                                            <asp:TextBox ID="txtEmail" runat="server" TextMode="Email"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtEmail" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="lbDOB" runat="server" Text="Day of birth: "></asp:Label>
-                                            <asp:TextBox ID="txtDOB" TextMode="Date" runat="server"></asp:TextBox>
-                                            <br />
-                                            <br />
                                             <asp:FileUpload ID="FileUpload1" runat="server" /><asp:Label ID="fileError" runat="server"></asp:Label>
                                             <asp:HiddenField ID="HiddenField1" runat="server" />
-
                                             <br />
                                             <br />
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="Label1" runat="server" Text="UserID "></asp:Label>
+                                                        <asp:TextBox ID="txtName" runat="server" ReadOnly="true" CssClass="form-control"></asp:TextBox>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="lbPass" runat="server" Text="Password "></asp:Label>
+                                                        <asp:TextBox ID="txtPass" runat="server" ReadOnly="True" CssClass="form-control"></asp:TextBox>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="lbFullname" runat="server" Text="Fullname: "></asp:Label>
+                                                        <asp:TextBox ID="txtFullname" runat="server" CssClass="form-control"></asp:TextBox>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtFullname" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="lbAddress" runat="server" Text="Address: "></asp:Label>
+                                                        <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control"></asp:TextBox>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtAddress" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="lbEmail" runat="server" Text="Email: "></asp:Label>
+                                                        <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" CssClass="form-control"></asp:TextBox>
+                                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtEmail" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <asp:Label ID="lbDOB" runat="server" Text="Day of birth: "></asp:Label>
+                                                        <asp:TextBox ID="txtDOB" TextMode="Date" runat="server" CssClass="form-control"></asp:TextBox>
+                                                    </div>
+                                                </div>
+                                                <asp:Button ID="Button2" runat="server" Text="Update Profile" OnClick="Button2_Click" CssClass="btn btn-primary" />
+                                                <asp:Button ID="Button3" runat="server" Text="Upload Image" OnClick="Button3_Click" CssClass="btn btn-primary"/>
+                                            </div>
                                             <asp:Label ID="success" runat="server" ForeColor="Green"></asp:Label>
                                             <asp:Label ID="faill" runat="server" ForeColor="Red"></asp:Label>
-                                            <br />
-                                            <asp:Button ID="Button2" runat="server" Text="Update Profile" OnClick="Button2_Click" />
-                                            <asp:Button ID="Button3" runat="server" Text="Upload Image" OnClick="Button3_Click" />
+
                                         </div>
                                     </div>
                                 </div>

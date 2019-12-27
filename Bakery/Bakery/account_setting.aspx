@@ -101,18 +101,30 @@
                                         <asp:FileUpload ID="FileUpload2" accept="image/*" multiple="false" runat="server" /><asp:Label ID="fileError" runat="server"></asp:Label>
                                         <br />
                                         <br />
-                                        <label>Fullname:</label>
-                                        <asp:TextBox ID="txtFullname" Text="<%#fullname %>" runat="server"></asp:TextBox>
-                                        <label>Address:</label>
-                                        <asp:TextBox ID="txtAddress" Text="<%#addr %>" runat="server"></asp:TextBox>
-                                        <label>Email:</label>
-                                        <asp:TextBox ID="txtEmail" Text="<%#email %>" TextMode="Email" runat="server"></asp:TextBox>
-                                        <label>Birthday:</label>
-                                        <asp:TextBox ID="birthday" TextMode="Date" Text="2019-1-1"  runat="server"></asp:TextBox>
-                                        <br />
-                                        <br />
-                                        <asp:Button ID="Button2" runat="server" Text="Update" CssClass="btn btn-primary" OnClick="Button2_Click" />
-                                        <asp:Button ID="Button1" runat="server" Text="Save Image" CssClass="btn btn-primary" OnClick="Button1_Click1" />
+                                        <div class="row form-group">
+                                            <div class="col-lg-6">
+                                                <label>Fullname:</label>
+                                                <asp:TextBox ID="txtFullname" Text="<%#fullname %>" runat="server" CssClass="form-control"></asp:TextBox>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <label>Address:</label>
+                                                <asp:TextBox ID="txtAddress" Text="<%#addr %>" runat="server" CssClass="form-control"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-lg-6">
+                                                <label>Email:</label>
+                                                <asp:TextBox ID="txtEmail" Text="<%#email %>" TextMode="Email" runat="server" CssClass="form-control"></asp:TextBox>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <label>Birthday:</label>
+                                                <asp:TextBox ID="birthday" TextMode="Date" Text="2019-1-1" runat="server" CssClass="form-control"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:Button ID="Button2" runat="server" Text="Update" CssClass="btn btn-primary" OnClick="Button2_Click" />
+                                            <asp:Button ID="Button1" runat="server" Text="Save Image" CssClass="btn btn-primary" OnClick="Button1_Click1" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

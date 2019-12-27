@@ -97,13 +97,12 @@
                 <!-- partial -->
                 <div class="main-panel">
                     <div class="content-wrapper">
-                        <div class="row">
+                        <div class="row form-group">
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
                                         <h4 class="card-title">Accounts Management</h4>
-
-                                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" Width="1007px" DataKeyNames="Username">
+                                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None"  DataKeyNames="Username">
                                             <AlternatingRowStyle BackColor="White" />
                                             <Columns>
                                                 <asp:BoundField DataField="Username" HeaderText="Username" ReadOnly="True" SortExpression="Username" />
@@ -126,14 +125,12 @@
                                             <SortedDescendingCellStyle BackColor="#E9EBEF" />
                                             <SortedDescendingHeaderStyle BackColor="#4870BE" />
                                         </asp:GridView>
-                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="Data Source=.;Initial Catalog=Bakery;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP (3) Username, Password, RoleID, Fullname, DOB, Address, Email, Img FROM Account"></asp:SqlDataSource>
+                                        <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:BakeryConnectionString %>" ProviderName="System.Data.SqlClient" SelectCommand="SELECT TOP (3) Username, Password, RoleID, Fullname, DOB, Address, Email, Img FROM Account"></asp:SqlDataSource>
                                         <br />
                                         <a href="admin_account.aspx">
                                             <p class="mb-1 mt-3 font-weight-semibold">Read More</p>
                                         </a>
                                     </div>
-
-
                                     <div class="card">
                                         <div class="card-body">
                                             <h4 class="card-title">Products Management</h4>
@@ -173,13 +170,9 @@
                                             </a>
                                         </div>
                                     </div>
-
-
                                     <div class="card">
                                         <div class="card-body">
                                             <h4 class="card-title">Orders Management</h4>
-
-
                                             <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CellPadding="4" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" Width="1516px" DataKeyNames="OrderId">
                                                 <AlternatingRowStyle BackColor="White" />
                                                 <Columns>
@@ -211,23 +204,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- content-wrapper ends -->
-                            <!-- partial:../../partials/_footer.html -->
-                            <footer class="footer">
-                                <div class="container-fluid clearfix">
-                                    <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2019 <a href="#" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
-                                    <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i>
-                                    </span>
-                                </div>
-                            </footer>
-                            <!-- partial -->
                         </div>
-                        <!-- main-panel ends -->
                     </div>
-                    <!-- page-body-wrapper ends -->
+                    <footer class="footer">
+                        <div class="container-fluid clearfix">
+                            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2019 <a href="#" target="_blank">Bootstrapdash</a>. All rights reserved.</span>
+                            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i>
+                            </span>
+                        </div>
+                    </footer>
                 </div>
             </div>
-        </div>
         </div>
     </form>
 </body>

@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--CSS============================================= -->
     <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -73,8 +74,8 @@
                             <li>|</li>
                             <li id="reg"><a href="register.aspx">Register</a></li>
                             <li id="log"><a href="login.aspx"><b>Login</b></a></li>
-                            <li id="acc"><a href="account_profile.aspx">Profile</></a></li>
-                            <li id="cart"><a href="cart.aspx">Cart</a></li>
+                            <li id="acc"><a href="account_profile.aspx">Profile</a></li>  
+                            <li id="cart"><a href="cart.aspx"><i class="fas fa-shopping-cart"></i></a></li>             
                         </ul>
                     </nav>
                     <!-- #nav-menu-container -->
